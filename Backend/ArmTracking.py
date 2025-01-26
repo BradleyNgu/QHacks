@@ -126,7 +126,8 @@ def track_arm_rom():
 
                     cap.release()
                     cv2.destroyAllWindows()
-                    return final_angle_left
+                    #return final_angle_left   
+                    #^eventually comment this out when we let you switch arms in the software
             else:
                 hold_start_time_left = None
 
@@ -159,5 +160,4 @@ def track_arm_rom():
     print("Failed to capture ROM.")
     return None
 
-  # remove this after
-track_arm_rom()
+# remove this after
