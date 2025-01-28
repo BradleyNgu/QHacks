@@ -1,4 +1,4 @@
-# QHacks
+# QMove
 
 ## **Helpful Commands**
 
